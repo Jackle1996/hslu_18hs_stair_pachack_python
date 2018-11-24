@@ -15,7 +15,9 @@ def start():
 @bottle.post('/chooseAction')
 def move():
     data = PublicGameState(ext_dict=bottle.request.json)
+    print(data)
     # TODO: Do things with data acces via data
+    
     return ReturnDirections.random()
 
 application = bottle.default_app()

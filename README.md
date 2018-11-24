@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 4) Run local server:
 ```
-python app/main.py
+python -m app
 ```
 
 5) Test client in your browser: [http://localhost:8080](http://localhost:8080).
